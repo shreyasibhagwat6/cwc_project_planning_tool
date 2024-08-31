@@ -84,7 +84,7 @@ const SignUp = () => {
             secondPassword !== password) {
             return;
         } else {
-            const response = await axios.post('http://localhost:3025/auth/signup', { 
+            const response = await axios.post('http://localhost:3025/sign-up', { 
                     name,
                     email,
                     username,
