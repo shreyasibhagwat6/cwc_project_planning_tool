@@ -93,7 +93,7 @@ const SignUp = () => {
                 console.log(response);
                 const token = response.data;
                 console.log(token);
-                localStorage.setItem('token', token);
+                localStorage.setItem("token", token);
                 }
                 setName('');
                 setEmail('');
